@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(services.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: red;
+    color: white;
+}
+
+.attribution{
+    padding: 10%;
+    background-color: black;
+    border-radius: 10px;
+    width: 50%;
+}

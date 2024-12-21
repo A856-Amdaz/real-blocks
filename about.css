@@ -1,0 +1,28 @@
+:root{
+    --green: green;
+    --white: white;
+}
+
+
+
+
+
+
+
+
+
+body{
+    background-image: url(about.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: var(--green);
+    color: var(--white);
+    flex-direction: column;
+}
+
+.attribution{
+    width: 50%;
+}

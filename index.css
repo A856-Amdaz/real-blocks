@@ -1,0 +1,136 @@
+:root {
+    --primaryColor: rgb(59, 46, 97);
+    --secondaryColor: rgb(67, 101, 141);
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+    background-color: var(--primaryColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    font-size: 1.5rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+#btn {
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 10px;
+    background-color: aqua;
+    color: black;
+
+}
+
+.navbar a {
+    color: white;
+}
+
+.hero-section {
+    background: url(./more.jpg) center no-repeat;
+    height: 100vh;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-color: rgb(42, 87, 122);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-section h1 {
+    font-size: 5rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.hero-section p {
+    color: white;
+    font-size: 3rem;
+}
+
+/* button{
+   color: black;
+   background-color: aqua;
+
+} */
+
+/* @media (min-width: 480px) {
+    .p {
+        font-size: 3rem;
+    }
+    .header{
+        flex-direction: row;
+    }
+}
+
+@media screen (min-width: 992px)(max-width: 1199px) {
+    p {
+        font-size: 2rem;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* mobile responsiveness */
+@media (max-width: 768px){
+    
+}
